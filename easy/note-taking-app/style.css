@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(81, 81, 255);
+  padding: 50px;
+}
+
+.container {
+  width: 720px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.new-note {
+  height: 200px;
+  width: 238px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.new-note button {
+  font-size: 70px;
+  font-weight: bold;
+  color: rgb(71, 71, 71);
+  border: none;
+  background: none;
+  cursor: pointer;
+  height: 200px;
+  width: 238px;
+}
+
+textarea {
+  height: 200px;
+  width: 238px;
+  border-radius: 15px;
+  resize: none;
+  font-size: 25px;
+  padding: 15px;
+}

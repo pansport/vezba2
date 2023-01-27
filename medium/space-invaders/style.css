@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: lightgrey;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid black;
+  width: 455px;
+  height: 460px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 30px;
+  height: 30px;
+}
+
+.invader {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.player {
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+}
+
+.bullet {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
